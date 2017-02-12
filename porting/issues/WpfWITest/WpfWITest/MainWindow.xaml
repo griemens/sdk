@@ -1,0 +1,8 @@
+﻿<Window x:Class="WpfWITest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+       <WindowsFormsHost Name="m_WinFormHost" Loaded="m_WinFormHost_Loaded" Unloaded="m_WinFormHost_Unloaded"/>
+    </Grid>
+</Window>
